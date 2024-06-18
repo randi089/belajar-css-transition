@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+a button {
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+a button:hover {
+    scale: 1.1;
+    background-color: black;
+    cursor: pointer;
+    color: red;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
